@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BusStation1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/BusStation/main/BusStation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

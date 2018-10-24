@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>controllers</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1602.0">controllers.Login</node>
+    <node x="307.0" y="0.0">controllers.ShowTrips</node>
+    <node x="1456.0" y="0.0">controllers.ShowVehicles</node>
+    <node x="399.0" y="999.0">controllers.addNewTrip</node>
+    <node x="1485.0" y="999.0">controllers.addNewVehicle</node>
+    <node x="0.0" y="0.0">controllers.Dash</node>
+    <node x="1005.0" y="999.0">controllers.SMS</node>
+    <node x="0.0" y="999.0">controllers.ShowManagers</node>
+    <node x="662.0" y="0.0">controllers.ShowTickets</node>
+    <node x="303.0" y="1602.0">controllers.mainController</node>
+    <node x="702.0" y="999.0">controllers.addNewManager</node>
+    <node x="1142.0" y="0.0">controllers.addNewTicket</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.42322855620671285" x="1881.7066004393523" y="1312.5407043817465" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

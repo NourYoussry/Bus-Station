@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="BGPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="813.0" styleClass="root" stylesheets="@../res/ui.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ShowTickets">
+    <children>
+        <TableView fx:id="DataTable" layoutX="14.0" layoutY="128.0" onMouseClicked="#DataTable_Click" prefHeight="457.0" prefWidth="783.0">
+            <columns>
+                <TableColumn fx:id="tripKey" prefWidth="390.0000228881836" text="Trip Key" />
+                <TableColumn fx:id="ticketId" minWidth="0.0" prefWidth="361.0" text="Ticket ID" />
+            </columns></TableView>
+        <Label alignment="CENTER" layoutX="372.0" layoutY="11.0" prefHeight="25.0" prefWidth="57.0" text="Tickets" textFill="#808fa3">
+            <font>
+                <Font name="Roboto Medium" size="14.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="13.0" layoutY="79.0" prefHeight="25.0" prefWidth="57.0" text="Ticket ID" textFill="#808fa3">
+            <font>
+                <Font name="Roboto Medium" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="TicketIdTxtBox" layoutX="70.0" layoutY="68.0" />
+        <Button fx:id="GOBTN" layoutX="266.0" layoutY="67.0" mnemonicParsing="false" onMouseClicked="#GOBTN_Clicked" prefHeight="49.0" prefWidth="91.0" styleClass="decision" stylesheets="@../res/ui.css" text="GO" />
+      <Button fx:id="CloseBTN" layoutX="783.0" layoutY="16.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="15.0" prefWidth="15.0" />
+    </children>
+</Pane>

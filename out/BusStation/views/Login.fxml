@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="BGPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="820.0" prefWidth="1330.0" styleClass="root" stylesheets="@../res/ui.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Login">
+   <children>
+      <Label fx:id="TitleLBL" alignment="CENTER" contentDisplay="CENTER" layoutX="583.0" layoutY="22.0" prefHeight="15.0" prefWidth="164.0" text="Bus Station" textAlignment="CENTER" textFill="#8d8d8d" textOverrun="CLIP">
+         <font>
+            <Font name="Roboto Medium" size="14.0" />
+         </font></Label>
+      <Button fx:id="CloseBTN" layoutX="1293.0" layoutY="23.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="15.0" prefWidth="15.0" />
+      <Button fx:id="MiniButton" layoutX="1263.0" layoutY="23.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="15.0" prefWidth="15.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="592.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../res/images/Finger.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ScanBTN" layoutX="487.0" layoutY="442.0" mnemonicParsing="false" onMouseClicked="#Scan_Clicked" prefHeight="68.0" prefWidth="361.0" styleClass="decision" stylesheets="@../res/ui.css" text="Scan" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="577.0" layoutY="317.0" prefHeight="79.0" prefWidth="182.0" text="Login" textAlignment="CENTER" textFill="#808fa3" textOverrun="CLIP">
+         <font>
+            <Font name="Roboto Light" size="66.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
